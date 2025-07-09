@@ -1,0 +1,36 @@
+aside {
+	background-color: var(--cor-cinza-escuro);
+	padding: 2.5em 1em;
+	width: 177px;
+	border-radius: 8px;
+}
+
+.lista-sidebar {
+	display: flex;
+	flex-direction: column;
+	gap: 2.5em;
+	margin-top: 5em;
+}
+
+.lista-sidebar li a {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-size: 22px;
+	gap: 10px;
+}
+
+.lista-link-publicar {
+	border: 1px solid var(--cor-verde-destaque);
+	color: var(--cor-verde-destaque);
+	padding: 0.75em 1em;
+	border-radius: 8px;
+}
+
+.lista-link--ativo {
+	color: var(--cor-branco);
+}
+
+.lista-link--intivo {
+	color: var(--cor-cinza-medio);
+}

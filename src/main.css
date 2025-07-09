@@ -1,0 +1,29 @@
+:root {
+	--fonte: "Prompt", sans-serif;
+	--cor-verde-destaque: #81FE88;
+	--cor-verde-pastel: #BFFFC3;
+	--cor-verde-petroleo: #132E35;
+	--cor-grafite: #01080E;
+	--cor-cinza-escuro: #171D1F;
+	--cor-cinza: #3E3E3F;
+	--cor-cinza-medio: #888888;
+	--cor-cinza-claro: #BCBCBC;
+	--cor-offwhite: #E1E1E1;
+	--cor-branco: #FFFFFF;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style: none;
+	color: inherit;
+}
+
+body {
+	background-color: var(--cor-grafite);
+	color: var(--cor-branco);
+	font-family: var(--fonte);
+	font-size: 16px;
+}
