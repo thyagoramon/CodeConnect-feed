@@ -3,6 +3,7 @@ import Sidebar from './components/sidebar/sidebar.jsx'
 import Searchbar from './components/searchbar/Searchbar.jsx'
 import Filter from './components/filter/filter.jsx'
 import Order from './components/order/order.jsx'
+import Card from './components/card/card.jsx'
 
 function App() {
   return (
@@ -12,6 +13,9 @@ function App() {
         <Searchbar />
         <Filter />
         <Order />
+        <div className='feed-cards'>
+          <Card />
+        </div>
       </div>
     </div>
   )
