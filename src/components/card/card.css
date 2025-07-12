@@ -4,13 +4,14 @@
 	overflow: hidden;
 	display: flex;
 	flex-direction: column;
-	width: 50%;
+	height: 500px;
+	width: 100%;
 }
 
 .card-img {
 	background-color: var(--cor-cinza-medio);
 	width: 100%;
-	height: 240px;
+	min-height: 250px;
 	overflow: hidden;
 	display: flex;
 	justify-content: center;
@@ -26,12 +27,15 @@
 .card-content {
 	display: flex;
 	flex-direction: column;
+	height: 100%;
 	padding: 16px;
 	color: var(--cor-cinza-claro);
+	overflow: hidden;
 }
 
 .card-content h2 {
 	font-size: 1.125em;
+	margin-bottom: 0.5em;
 }
 
 .card-content p {
@@ -81,4 +85,10 @@
 	gap: 12px;
 	color: var(--cor-cinza-medio);
 	width: 100%;
+	img {
+		width: 36px;
+		height: 36px;
+		object-fit: cover;
+		border-radius: 24px;
+	}
 }
