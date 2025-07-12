@@ -1,8 +1,11 @@
 .container {
-	width: 62vw;
+	width: 66vw;
 	margin: 3.5em auto;
 	display: flex;
 	gap: 16px;
+	@media (max-width: 1200px) {
+		width: 90vw;
+	}
 }
 
 .container div {
@@ -14,4 +17,7 @@
 	grid-template-columns: repeat(2, 1fr);
 	grid-auto-rows: 1fr;
 	gap: 16px;
+	@media (max-width: 960px) {
+		grid-template-columns: repeat(1, 1fr);
+	}
 }

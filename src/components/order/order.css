@@ -5,11 +5,18 @@
 	gap: 28px;
 	margin-top: 56px;
 	margin-bottom: 32px;
-	color: var(--cor-cinza-medio);
 	font-size: 1.37em;
 }
 
 .order--active {
 	color: var(--cor-verde-destaque);
 	text-decoration: underline;
+}
+
+.order--disabled {
+	color: var(--cor-cinza-medio);
+	transition: 0.3s ease;
+	&:hover {
+		color: var(--cor-branco);
+	}
 }

@@ -5,11 +5,23 @@ aside {
 	border-radius: 8px;
 }
 
+aside img {
+	cursor: pointer;
+	transition: 0.3s ease;
+	&:hover {
+		scale: 1.05;
+	}
+}
+
 .lista-sidebar {
 	display: flex;
 	flex-direction: column;
 	gap: 2.5em;
 	margin-top: 5em;
+}
+
+.lista-sidebar li:hover > a {
+	color: var(--cor-branco);
 }
 
 .lista-sidebar li a {
@@ -18,6 +30,11 @@ aside {
 	align-items: center;
 	font-size: 22px;
 	gap: 10px;
+	transition: 0.3s ease;
+}
+
+.lista-sidebar li a i {
+	font-size: 1.3em;
 }
 
 .lista-link-publicar {
@@ -25,6 +42,11 @@ aside {
 	color: var(--cor-verde-destaque);
 	padding: 0.75em 1em;
 	border-radius: 8px;
+	transition: 0.3s ease;
+	&:hover {
+		border: 1px solid var(--cor-roxo);
+		color: var(--cor-roxo) !important;
+	}
 }
 
 .lista-link--ativo {

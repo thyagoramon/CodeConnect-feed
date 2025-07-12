@@ -1,7 +1,4 @@
 import './card.css';
-import iconChat from './assets/chat.svg'
-import iconCode from './assets/code.svg'
-import iconShare from './assets/share.svg'
 
 export default function Card({id, imagem, titulo, descricao, linhasDeCodigo, compartilhamentos, comentarios, usuario}) {
 	return(
@@ -16,21 +13,15 @@ export default function Card({id, imagem, titulo, descricao, linhasDeCodigo, com
 			<div className='card-buttons'>
 				<div className='card-buttons-left'>
 					<div>
-						<a href="#">
-							<img src={iconCode} alt="" />
-						</a>
+						<i className="fa-solid fa-code"></i>
 						<p>{linhasDeCodigo}</p>
 					</div>
 					<div>
-						<a href="#">
-							<img src={iconShare} alt="" />
-						</a>
+						<i className="fa-solid fa-share-nodes"></i>
 						<p>{compartilhamentos}</p>
 					</div>
 					<div>
-						<a href="#">
-							<img src={iconChat} alt="" />
-						</a>
+						<i className="fa-solid fa-comment"></i>
 						<p>{comentarios}</p>
 					</div>
 				</div>

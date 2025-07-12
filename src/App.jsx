@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import axios from 'axios'
 import './App.css'
 import Sidebar from './components/sidebar/sidebar.jsx'
 import Searchbar from './components/searchbar/Searchbar.jsx'
@@ -12,8 +13,8 @@ export default function App() {
   useEffect(() => {
     const buscarDados = async () => {
       try {
-        const resposta = await fetch('https://my-json-server.typicode.com/MonicaHillman/codeconnect-api/publicacoes');
-        const dados = await resposta.json();
+        const resposta = await axios.get('https://my-json-server.typicode.com/MonicaHillman/codeconnect-api/publicacoes');
+        const dados = await resposta.data;
         setDados(dados);
       } catch (error) {
         console.error('Erro ao buscar dados: ', error);

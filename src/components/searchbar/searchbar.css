@@ -10,4 +10,10 @@
 	background: var(--cor-cinza-escuro) url('./assets/search.svg');
 	background-repeat: no-repeat;
 	background-position: 32px;
+	&::placeholder {
+		transition: 0.3s ease;
+	}
+	&:hover::placeholder {
+		color: var(--cor-branco);
+	}
 }

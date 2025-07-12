@@ -1,9 +1,5 @@
 import logo from './assets/logo.svg';
-import feed from './assets/feed.svg';
-import about from './assets/about.svg';
-import exit from './assets/exit.svg';
-import profile from './assets/profile.svg';
-import './sidebar.css'
+import './sidebar.css';
 
 export default function Sidebar() {
 	return (
@@ -16,25 +12,25 @@ export default function Sidebar() {
 					</li>
 					<li>
 						<a href="#" className='lista-link--ativo'>
-							<img src={feed} alt="" />
+							<i className="fa-solid fa-file"></i>
 							<span>Feed</span>
 						</a>
 					</li>
 					<li>
 						<a href="#" className='lista-link--intivo'>
-							<img src={profile} alt="" />
+							<i className="fa-solid fa-circle-user"></i>
 							<span>Perfil</span>
 						</a>
 					</li>
 					<li>
 						<a href="#" className='lista-link--intivo'>
-							<img src={about} alt="" />
+							<i className="fa-solid fa-circle-info"></i>
 							<span>Sobre nós</span>
 						</a>
 					</li>
 					<li>
 						<a href="#" className='lista-link--intivo'>
-							<img src={exit} alt="" />
+							<i className="fa-solid fa-right-from-bracket"></i>
 							<span>Sair</span>
 						</a>
 					</li>

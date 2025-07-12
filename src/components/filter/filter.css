@@ -6,16 +6,21 @@
 
 .container-filtro ul {
 	display: flex;
+	flex-wrap: wrap;
 	gap: 1em;
 }
 
 .container-filtro ul li {
 	background-color: var(--cor-cinza-claro);
 	color: var(--cor-cinza-escuro);
-	font-size: 18px;
+	font-size: 16px;
 	padding: 0.25em 0.5em;
 	border-radius: 4px;
 	cursor: pointer;
+	transition: 0.3s ease;
+	&:hover {
+		background-color: var(--cor-branco);
+	}
 }
 
 .container-filtro button {
@@ -24,4 +29,8 @@
 	color: var(--cor-cinza-medio);
 	font-size: 18px;
 	cursor: pointer;
+	transition: 0.3s ease;
+	&:hover {
+		color: var(--cor-branco);
+	}
 }
