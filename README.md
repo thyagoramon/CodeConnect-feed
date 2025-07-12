@@ -1,12 +1,22 @@
-# React + Vite
+# CodeConnect - Feed
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**CodeConnect** é uma rede social fictícia com foco na comunidade de desenvolvedores. O projeto, desenvolvido usando **React**, reproduz a página de feed da rede social, onde as postagens dos usuários são exibidas em cards criados dinâmicamente usando dados obtidos via API.
 
-Currently, two official plugins are available:
+O projeto foi desenvolvido ao longo do curso **React: configurando e estruturando projetos com Vite** da escola de tecnologia **Alura**, tendo a professora **Mônica Mazzochi Hillman** como instrutora.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![CodeConnect](./code-connect-feed.jpg)
 
-## Expanding the ESLint configuration
+[Clique aqui para visualizar a página](https://code-connect-feed-git-main-thyagos-projects-e65f960c.vercel.app)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Funcionalidades da aplicação:
+- Obtenção de dados de API usando Axios.
+- Renderização dos dados em cards de postagens dinâmicos.
+- Responsividade básica.
+- Efeitos decorativos em hover.
+
+## Técnicas e tecnologias utilizadas:
+- HTML, CSS e JavaScript 
+- Vite
+- React
+- Axios
+- Figma
